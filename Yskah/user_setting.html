@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Setting</title>
+    <link rel="stylesheet" href="user_setting.css" />
+  </head>
+  <body>
+    <div class="navi-bar">
+
+        <div class="navi-items">
+
+            <div class="logo_search">
+                <div class="logo"><a href="#"><img src="LOGO.png"></a></div>
+
+            </div>
+          
+            <div class="navi-btn">
+
+                <div class="buttons active"><i class='bx bx-home-alt'></i><a href="#">Home</a></div>
+            <div class="buttons"><i class='bx bx-shopping-bag' ></i><a href="#">Products</a></div>
+            <div class="buttons"><i class='bx bx-cart' ></i><a href="#">Cart</a></div>
+            <div class="buttons"><i class='bx bx-phone'></i><a href="#">About Us</a></div>
+            
+            </div>
+
+            <div class="user">
+
+                <div class="name">
+                  <p><?php echo $_SESSION['username'] ?></p>
+                </div>
+    
+                <div class="photo"></div>
+    
+            </div>
+
+        </div>
+    <div class="container"></div>
+  </body>
+</html>
