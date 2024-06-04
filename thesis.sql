@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 02, 2024 at 08:54 AM
+-- Generation Time: Jun 04, 2024 at 09:06 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -75,11 +75,8 @@ CREATE TABLE `product_samples` (
 --
 
 INSERT INTO `product_samples` (`sample_id`, `product_id`, `image_file`) VALUES
-(11, 0, '665c14b20668b.jpg'),
-(12, 26, '665c150b20fdb.jpg'),
-(13, 25, '665c1521dc1c6.jpg'),
-(14, 30, '665c1561e52f8.jpg'),
-(15, 30, '665c15791347f.jpg');
+(19, 30, '665d23f520fcf.jpg'),
+(20, 30, '665d2e3df00d6.jpg');
 
 -- --------------------------------------------------------
 
@@ -159,7 +156,7 @@ ALTER TABLE `products`
 -- AUTO_INCREMENT for table `product_samples`
 --
 ALTER TABLE `product_samples`
-  MODIFY `sample_id` int(15) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+  MODIFY `sample_id` int(15) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
 
 --
 -- AUTO_INCREMENT for table `user_table`
